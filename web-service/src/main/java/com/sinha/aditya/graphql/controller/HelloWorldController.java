@@ -14,7 +14,7 @@ public class HelloWorldController {
 
     @GetMapping("/hello")
     public String greetings() {
-        LOGGER.info("Inside controller");
+        LOGGER.info("Inside Hello controller");
         return "Hello World!!";
     }
 }
